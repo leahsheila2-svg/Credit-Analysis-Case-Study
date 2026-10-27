@@ -225,7 +225,7 @@ The stress test reduces the bank's income by different amounts to assess when th
 
 **Key takeaway:** In this model, NCBA can withstand an income decline of approximately 20% without breaching either covenant. Under the 30% decline scenario, the DSCR falls below the minimum requirement of 1.20×, potentially giving the lender the right to intervene under the loan agreement.
 
-- Sensitivity Analysis (Three Grids)
+- Sensitivity Analysis:
 
 | Table | What Changes | What It Shows |
 |---|---|---|
@@ -233,9 +233,37 @@ The stress test reduces the bank's income by different amounts to assess when th
 | **Table 2: PAT Under Loan Losses** | NPL ratio ranges from 5–18%, against a loss-given-default (LGD) range of 30–60%. | Intended to show how profitability changes as non-performing loans and expected credit losses increase. **Currently displays zeros; see model limitations.** |
 | **Table 3: DSCR Under Combined Stress** | NOI declines by 0–30%, with additional impairment ranging from KES 0–12 billion. | Shows which combinations of declining income and additional credit losses cause the DSCR to breach the 1.20× covenant. |
 
-## Disclaimer
+## Disclaimer: Educational use only. Based on publicly available annual reports. Not affiliated with, endorsed by, or connected to NCBA Group PLC or any financial institution. No part of this work uses confidential or employer material. Figures may contain errors. Do not use this for real lending or investment decisions.
 
-Educational use only. Based on publicly available annual reports. Not affiliated with, endorsed by, or connected to NCBA Group PLC or any financial institution. No part of this work uses confidential or employer material. Figures may contain errors. Do not use this for real lending or investment decisions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
