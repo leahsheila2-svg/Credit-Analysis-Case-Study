@@ -54,7 +54,7 @@ Why a bank as the borrower? Banks are analysed differently from ordinary compani
 
 The financial data comes from NCBA's public annual reports (FY2023 to FY2025). The loan terms, fees, covenants and the final "approve" decision are my own illustrative choices, made to practise the full credit process end to end
 
-## 3. Plain-English Glossary
+3. Plain-English Glossary
 
 | Term | What It Means |
 |---|---|
@@ -81,7 +81,165 @@ The financial data comes from NCBA's public annual reports (FY2023 to FY2025). T
 | **NPL (Non-Performing Loans)** | Loans on which borrowers have stopped making required payments or that otherwise meet the applicable non-performing classification criteria. Lower NPL levels generally indicate better asset quality. |
 | **Impairment / provisions** | Amounts recognised or set aside to reflect expected credit losses on loans and other financial assets. |
 | **Gearing (Debt/Equity)** | A measure of borrowings relative to shareholders' equity. Higher gearing generally indicates greater financial leverage. |
-| **Liquidity** |
+| **Liquidity** | The ability to meet financial obligations when they fall due. Banks manage liquidity using cash, liquid securities and other available funding sources. |
+| **LDR (Loan-to-Deposit Ratio)** | Loans divided by deposits. A lower ratio may indicate greater deposit funding headroom, but interpretation depends on the bank's liquidity position and business model. |
+| **NIM (Net Interest Margin)** | Net interest income divided by average interest-earning assets. It measures how effectively a bank earns interest income relative to its funding costs and interest-earning assets. |
+| **ROE / ROA** | Return on Equity / Return on Assets. ROE measures profit relative to shareholders' equity, while ROA measures profit relative to total assets. |
+| **Cost-to-income ratio** | Operating expenses divided by operating income. A lower ratio generally indicates greater operating efficiency. |
+| **Stress test** | An assessment of how a borrower or bank performs under adverse scenarios, such as lower income, higher funding costs or increased credit losses. |
+| **Sensitivity analysis** | An analysis showing how changes in one or more assumptions affect a financial result. |
+| **RAROC (Risk-Adjusted Return on Capital)** | Risk-Adjusted Return on Capital. It assesses whether the return generated is sufficient relative to the capital required to support the associated risk. |
+| **5 Cs of Credit** | A traditional credit assessment framework: Character, Capacity, Capital, Collateral and Conditions. |
+
+4. The Proposed Loan
+
+| Item | Detail |
+|---|---|
+| **Borrower** | NCBA Group PLC, the parent company listed on the Nairobi Securities Exchange |
+| **Lender** | Hypothetical Lender (placeholder, not a real institution) |
+| **Facility** | Senior unsecured bilateral term loan |
+| **Amount** | KES 5,000,000,000 (KES 5 billion), approximately 3.9% of NCBA's equity of KES 127.4 billion |
+| **Tenor** | 36 months from first drawdown |
+| **Availability period** | 6 months to draw the funds after signing |
+| **Drawdowns** | Minimum KES 500 million per drawdown, with a maximum of 3 drawdowns |
+| **Repayment** | Bullet repayment at maturity, with interest paid quarterly |
+| **Interest rate** | CBR + 350 basis points (bps), floating and reset quarterly; 13.5% per annum at an assumed CBR of 10% |
+| **Default interest** | Contractual interest rate + 300 bps on overdue amounts |
+| **Arrangement fee** | 1.00% of the facility amount (KES 50 million) |
+| **Commitment fee** | 0.50% per annum on undrawn amounts during the availability period |
+| **Prepayment** | Permitted without penalty on 30 days' notice |
+| **Security** | Unsecured, with a negative pledge |
+| **Purpose** | General corporate purposes, working capital and funding subsidiaries |
+| **Governing law** | Laws of Kenya |
+
+**Estimated interest payments:** At an illustrative annual interest rate of 13.5% on KES 5 billion, annual interest would be approximately KES 675 million, or KES 168.75 million per quarter, assuming the full principal remains outstanding and the rate stays unchanged.
+
+ 5. Sheet-by-Sheet Guide
+
+| # | Sheet | What It Does | Read It If You Want to... |
+|---:|---|---|---|
+| 1 | **Credit Memo** | Presents the loan summary, executive summary and workbook navigation. | Understand the overall lending recommendation in approximately 2 minutes. |
+| 2 | **Borrower Profile** | Covers NCBA's business model, revenue sources, ownership, management and governance. | Understand the borrower and how the company operates. |
+| 3 | **Financial Statements** | Presents three years of income statement, balance sheet and cash flow figures, including two-year growth rates. | Review the historical financial performance and position. |
+| 4 | **Ratio Analysis** | Analyses 35+ financial ratios across six categories, with benchmarks and concise assessments. | Understand what the financial numbers indicate about performance and risk. |
+| 5 | **Risk Assessment** | Applies the 5 Cs of Credit, a 10-item risk matrix and a covenant-breach stress table. | Identify key credit risks and potential downside scenarios. |
+| 6 | **Lending Recommendation** | Sets out the lending decision, proposed term sheet, covenants, conditions precedent, pricing and approvals. | Review the proposed transaction and lending conditions. |
+| 7 | **Sensitivity Analysis** | Includes three scenario grids covering facility coverage, profitability under loan losses, and DSCR under combined stress. | Test how adverse assumptions could affect the lending decision. |
+| 8 | **Sources and Assumptions** | Documents source reports, modelling assumptions, a revenue cross-check and coverage-ratio definitions. | Verify the model's inputs, methodology and calculations. |
+
+Ratio Analysis sections:
+
+I. Debt service and coverage: can earnings and cash flow cover interest and repayments?
+II. Leverage and capital: how much debt, and how big is the capital cushion?
+III. Liquidity: can NCBA find cash quickly?
+IV. Asset quality: are NCBA's own borrowers repaying?
+V. Profitability: how well does NCBA turn assets and equity into profit?
+VI. Credit-specific banking ratios: single-borrower limit, related-party lending, foreign currency exposure.
+
+6. How the analysis works, step by step:
+   
+Step 1: Gather the financial statements
+
+Three years of figures (FY2023, FY2024, FY2025) go into the Financial Statements sheet. Growth rates are calculated with live formulas. For example, NCBA's net interest income grew from KES 38.2 billion in FY2023 to KES 57.7 billion in FY2025.
+
+Step 2: Turn the numbers into ratios
+
+Raw numbers are hard to judge on their own, so ratios compare one number with another. A few examples using NCBA's FY2025 figures:
+
+| Ratio | Calculation | Result | Meaning |
+|---|---|---:|---|
+| **Gearing** | Borrowings ÷ equity = 7.6bn ÷ 127.4bn | **5.9%** | Almost no debt relative to owners' funds. |
+| **Loan-to-deposit** | Loans ÷ deposits = 306.9bn ÷ 531.9bn | **57.7%** | The bank lends out well under two-thirds of its deposits. |
+| **Liquidity** | (Cash + government securities) ÷ deposits = (63.8bn + 221.6bn) ÷ 531.9bn | **53.7%** | More than half of deposits are backed by cash or government bonds. |
+| **Cost-to-income** | Operating costs ÷ income = 37.1bn ÷ 71.8bn | **51.7%** | About KES 52 of every KES 100 earned goes toward running costs. |
+| **Equity ÷ assets** | 127.4bn ÷ 716.0bn | **17.8%** | A substantial equity cushion relative to total assets. |
+
+Each ratio is compared with a benchmark (for example, liquidity of at least 20%), and a short comment says whether it passes. The "Assessment" column is written for a reader who doesn't want to re-derive anything.
+
+Step 3: Judge the borrower on the 5 Cs
+
+The Risk Assessment sheet scores NCBA on the classic checklist:
+
+| C | Question | Rating in This Case Study |
+|---|---|---|
+| **Character** | Is the borrower honest, transparent and reliable? | **Strong** |
+| **Capacity** | Can it repay from its earnings? | **Strong** |
+| **Capital** | Does it have a financial cushion? | **Very strong** |
+| **Collateral** | What can the lender claim if things go wrong? | **Moderate** (the loan is unsecured, so the decision rests on cash flow) |
+| **Conditions** | How are the economy and industry? | **Moderate** (the CBK rate cycle and sector bad loans are watch points) |
+
+Step 4: Map the risks
+
+A risk matrix rates 10 risks by how likely they are and how much damage they would do. One is rated High (credit and NPL risk), six Medium (interest rate, liquidity, refinancing, concentration, operational, sovereign) and three Low (regulatory, foreign exchange, reputational). Each has a stated mitigation.
+
+Step 5: Design the deal
+
+The Lending Recommendation sheet turns the analysis into a term sheet:
+
+Covenants: financial rules the borrower must keep. Examples: CAR of at least 15.5%, group interest coverage of at least 2.50×, DSCR of at least 1.20×, NPL ratio no higher than 10%. Each is shown next to NCBA's actual FY2025 figure and the headroom (the safety gap).
+Conditions precedent: ten boxes to tick before any cash is paid out, such as board resolutions, legal opinions and KYC checks.
+Pricing: the 350 bps margin is built up from risk adjustments. Being unsecured adds 100 bps and the 3-year tenor adds 75 bps. Strong credit quality takes off 25 bps and the relationship takes off 50 bps. A 250 bps market-standard floor brings the total to 350 bps. The sheet also shows illustrative comparable deals, an estimated RAROC of 18–22% against an internal hurdle of 15%, and a break-even loss rate.
+Approvals: who must sign off at each level of the credit chain.
+
+Step 6: Stress It
+
+The final step asks, "What if income falls?" The next section explores the results of these stress scenarios.
+
+7. Key Findings
+
+| Check | NCBA FY2025 | Loan Requirement | Verdict |
+|---|---|---|---|
+| **Profit after tax** | KES 23.4bn (+7.0% on FY2024) | N/A | Strong. Roughly 4.7 times the loan amount. |
+| **Group interest coverage** | 3.86× | At least 2.50× | Pass |
+| **Debt service coverage (DSCR)** | 1.66× | At least 1.20× | Pass |
+| **Capital adequacy (CAR)** | 19.8% | At least 15.5% | Pass (4.3 percentage points of headroom) |
+| **Tier 1 capital ratio** | 16.3% | At least 12.0% | Pass |
+| **Gearing (debt ÷ equity)** | 0.06× | At most 0.50× | Pass |
+| **Liquidity (cash + government bonds ÷ deposits)** | 53.7% | At least 30% | Pass |
+| **Return on assets (ROA)** | About 3.3% | At least 1.5% | Pass |
+| **Bad loans (NPL ratio)** | About 7.5% (down from 8.6%) | At most 10% | Pass, but the **main watch point** |
+
+The case for approving: high and growing profits, a very large liquidity buffer, almost no debt of its own, capital well above the regulatory minimum, and a loan that is small relative to the balance sheet.
+
+The main concerns:
+
+NPLs of about 7.5% are above the 5% benchmark in the model. This is the weakest ratio.
+Loan loss reserve coverage is 61%, below the 70% benchmark, so additional provisions may be needed.
+The loan is unsecured. In a collapse, depositors rank ahead of lenders like this one.
+Earnings growth is slowing. PAT growth was +20.8% in FY2024 and +7.0% in FY2025.
+
+#8. Stress Tests and Sensitivity Tables
+
+- Stress Test (Risk Assessment, Section C)
+
+The stress test reduces the bank's income by different amounts to assess when the proposed financial covenants would be breached.
+
+| Scenario | Group Interest Coverage (Min. 2.50×) | DSCR (Min. 1.20×) | Breach? |
+|---|---:|---:|---|
+| **Base case (FY2025 actual)** | 3.86× | 1.66× | No |
+| **Mild: NOI −10%** | 3.48× | 1.49× | No |
+| **Moderate: NOI −20%** | 3.09× | 1.33× | No |
+| **Severe: NOI −30%** | 2.70× | 1.16× | **Yes (DSCR)** |
+| **Extreme: NOI −50%** | 1.93× | 0.83× | **Yes (both covenants)** |
+| **NPL surge: +5 percentage points of extra impairment** | 3.04× | 0.93× | **Yes (DSCR)** |
+
+**Key takeaway:** In this model, NCBA can withstand an income decline of approximately 20% without breaching either covenant. Under the 30% decline scenario, the DSCR falls below the minimum requirement of 1.20×, potentially giving the lender the right to intervene under the loan agreement.
+
+- Sensitivity Analysis (Three Grids)
+
+| Table | What Changes | What It Shows |
+|---|---|---|
+| **Table 1: Facility Interest Coverage** | NOI declines by 0–30%, while the interest rate ranges from CBR + 200 bps to CBR + 500 bps. | Shows how changes in income and interest rates affect the borrower's ability to cover interest on the proposed loan alone. |
+| **Table 2: PAT Under Loan Losses** | NPL ratio ranges from 5–18%, against a loss-given-default (LGD) range of 30–60%. | Intended to show how profitability changes as non-performing loans and expected credit losses increase. **Currently displays zeros; see model limitations.** |
+| **Table 3: DSCR Under Combined Stress** | NOI declines by 0–30%, with additional impairment ranging from KES 0–12 billion. | Shows which combinations of declining income and additional credit losses cause the DSCR to breach the 1.20× covenant. |
+
+## Disclaimer
+
+Educational use only. Based on publicly available annual reports. Not affiliated with, endorsed by, or connected to NCBA Group PLC or any financial institution. No part of this work uses confidential or employer material. Figures may contain errors. Do not use this for real lending or investment decisions.
 
 
+
+
+
+## 3. Plain-English Glossary
 
